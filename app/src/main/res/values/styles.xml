@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#1b1931</item>
+        <item name="colorPrimaryDark">#1b1931</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#171717</item>
+        <item name="colorPrimaryDark">#171717</item>
+        <item name="colorAccent">#16f90a</item>
+    </style>
+
+
+    <style name="MyTheme2" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#1b1931</item>
+        <item name="colorPrimaryDark">#7E57C2</item>
+        <item name="colorAccent">#16f90a</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+    </style>
+
+    <style name="MyTheme3" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#1b1931</item>
+        <item name="colorPrimaryDark">#1b1931</item>
+        <item name="colorAccent">#16f90a</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+    </style>
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+</resources>

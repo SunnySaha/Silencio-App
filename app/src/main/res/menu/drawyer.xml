@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Themes">
+
+        <menu>
+            <item
+
+                android:id="@+id/Lighttheme"
+                android:icon="@drawable/ic_color_lens_black_24dp"
+                android:title="Light"
+                android:iconTint="#dc5ce6"
+                >
+
+            </item>
+            <item
+
+                android:id="@+id/Darktheme"
+                android:icon="@drawable/ic_color_lens_black_24dp"
+                android:title="Dark">
+
+            </item>
+
+        </menu>
+
+    </item>
+    <item android:title="Communicate">
+
+        <menu>
+            <item
+
+                android:id="@+id/shareId"
+                android:icon="@drawable/ic_share"
+                android:title="Share This App">
+
+            </item>
+            <item
+
+                android:id="@+id/aboutId"
+                android:icon="@drawable/ic_person_black_24dp"
+                android:title="About Us">
+
+            </item>
+            <item
+
+                android:id="@+id/feedbackId"
+                android:icon="@drawable/ic_feedback"
+                android:title="FeedBack">
+
+            </item>
+
+        </menu>
+
+    </item>
+
+    <item android:title="Help">
+        <menu>
+            <item
+
+                android:id="@+id/helpId"
+                android:icon="@drawable/ic_help_black_24dp"
+                android:title="How to use the app">
+
+            </item>
+        </menu>
+    </item>
+    <item android:title="Exit">
+        <menu>
+            <item
+
+                android:id="@+id/Exit"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Exit">
+
+            </item>
+        </menu>
+    </item>
+</menu>
